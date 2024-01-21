@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: honeydew;
+    text-shadow: 0 7px BLACK;
+    font-weight: bolder;
+    font-size: 40px;
+}
+body{
+    display: grid;
+    place-items:center;
+    align-items: center;
+    margin-top: 2rem;
+    background-image: url('bg.jpg');
+}
+.container{
+    background-color: white;
+    height: 30.5rem;
+    width: 25rem;
+    box-shadow: 0 0 16px 0 darkolivegreen;
+    border-radius: 18px;
+    background-size: cover;
+}
+textarea{   
+     margin: 14px 10px 12px 15px;
+    width: 23rem;
+    height: 27rem;
+    overflow-y: scroll;
+    border-radius: 17px;
+    font-family: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 0 inset;
+    border: snow;
+}
+textarea:hover{
+    border: 1px solid black;
+    border-right: none;
+}
+select{
+    margin-left: 1rem;
+    width: 19rem;
+    height: 1.3rem;
+    border-radius: 9px;
+    box-shadow: 0 0 15px 0 grey inset;
+    color: white;
+    background-color: black;
+}
+button{
+    height: 1.3rem;
+    width: 4rem;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    box-shadow: 0 0 24px 0 grey inset;
+}
+@media only screen and (max-width: 767px) {
+    h1{
+       font-size: 30px;
+    }
+    body{
+        margin-top: 0;
+    }
+    .container{
+        height: 50rem;
+    }
+    textarea{
+        height: 42rem;
+        font-size: 32px;
+        overflow-y: scroll;
+    }
+    select{   
+         font-size: 20px;
+        height: 3rem;
+        width: 23rem;
+    }
+    button{
+        font-size: 2rem;
+        border-radius: 23px;
+        margin-top: 4px;
+        margin-left: 77px;
+        height: 3rem;
+        width: 14rem;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
